@@ -16,6 +16,7 @@ services:
       N8N_SMTP_SENDER: "[DOMAIN]@vm.elestio.app"
       N8N_SMTP_SSL: "false"
       WEBHOOK_TUNNEL_URL: https://${DOMAIN}
+      WEBHOOK_URL: https://${DOMAIN}
     ports:
       - 172.17.0.1:5678:5678
     dns:
