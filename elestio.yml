@@ -34,7 +34,9 @@ environments:
   - key: "POSTGRES_DB"
     value: "n8n"
   - key: "POSTGRES_USER"
-    value: "postgres"    
+    value: "postgres"
+  - key: "ADMIN_EMAIL"
+    value: "[EMAIL]"    
 config:
   runTime: "dockerCompose"
   version: ""
