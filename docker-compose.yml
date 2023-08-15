@@ -27,7 +27,7 @@ x-shared: &shared
     N8N_SMTP_PORT: ${SMTP_PORT}
     N8N_SMTP_USER: " "
     N8N_SMTP_PASS: " "
-    N8N_SMTP_SENDER: "[DOMAIN]@vm.elestio.app"
+    N8N_SMTP_SENDER: ${SMTP_FROM_EMAIL}
     N8N_SMTP_SSL: "false"
   links:
     - postgres
