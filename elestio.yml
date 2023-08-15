@@ -31,7 +31,10 @@ environments:
     value: "168"
   - key: "EXECUTIONS_DATA_PRUNE_MAX_COUNT"
     value: "10000"
-
+  - key: "POSTGRES_DB"
+    value: "n8n"
+  - key: "POSTGRES_USER"
+    value: "postgres"    
 config:
   runTime: "dockerCompose"
   version: ""
