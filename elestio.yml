@@ -51,6 +51,8 @@ environments:
     value: "password"
   - key: "DB_POSTGRESDB_SCHEMA"
     value: "n8n"
+  - key: "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED"
+    value: "false"
   - key: "ADMIN_EMAIL"
     value: "eric.chautems@kooko.ch"
   - key: "N8N_LOG_LEVEL"
