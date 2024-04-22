@@ -48,7 +48,7 @@ x-shared: &shared
     - ./n8n:/home/node/.n8n
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:15.6
     restart: always
     container_name: db
     environment:
